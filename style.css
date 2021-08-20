@@ -1,0 +1,177 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    background: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 5%;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 40px 60px rgba(0,0,0,0.3);
+}
+
+.profile-text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 2px solid gray;   
+    padding-bottom: 5%;
+}
+
+.profile-text h2 {
+    color: #fff;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.profile-text span {
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+.img img{
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+.container .left-col {
+    position: relative;
+    background: brown;
+    padding: 40px;
+}
+
+.contact {
+    padding-top: 35%;
+}
+.contact ul {
+    position: relative;
+}
+.contact ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.contact ul li .icon {
+    color: burlywood;
+    padding-right: 5px;
+}
+.contact ul li .text {
+    font-size: .8rem;
+    font-weight: 500px;
+}
+.contact ul li span {
+    color: #fff;
+    font-weight: 300;
+}
+
+.contact.education li {
+    margin-bottom: 20px;
+}
+.contact.education h5 {
+    color: burlywood;
+    font-weight: 500;
+}
+.contact.education h4:nth-child(2) {
+    color: #fff;
+    font-weight: 700;
+}
+.contact.education h4 {
+    color: #fff;
+    font-weight: 300;
+}
+
+
+.title {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-bottom: 5%;
+}
+
+.container .right-col {
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+
+.about {
+    margin-bottom: 100px;
+}
+
+.about .experience {
+    display: flex;
+    flex-direction: row;
+    margin: 25px 0
+}
+
+.about .experience .year-comp {
+    min-width: 200px;
+}
+
+.about .experience .year-comp h5 {
+    text-transform: uppercase;
+    color: gray;
+    font-weight: 600;
+}
+
+.about .experience .text h4 {
+    color: burlywood;
+}
+
+.profile-h {
+    color: brown;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.stack {
+    display: flex;
+    justify-content: space-between;
+}
+.stack img {
+    margin-top: 3%;
+    width: 100px;
+    height: 100px;
+}
+
+.interests ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.interests ul li {
+    list-style: none;
+    color: gray;
+    font-weight: 700;
+    margin: 10px 0;
+}
+.interests ul li .fas {
+    color: burlywood;
+    font-size: 20px;
+}
