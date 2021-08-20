@@ -101,6 +101,16 @@ body {
     font-weight: 300;
 }
 
+.logos .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logos .logo img {
+    width: 150px;
+    margin: 10px 0;
+}
+
 
 .title {
     text-transform: uppercase;
@@ -174,4 +184,15 @@ body {
 .interests ul li .fas {
     color: burlywood;
     font-size: 20px;
+}
+
+button {
+    background-color: burlywood;
+    color: #fff;
+    outline: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: .8rem;
+    font-weight: 600;
 }
